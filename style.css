@@ -1,0 +1,58 @@
+body {
+	background: url(mountain-landscape.jpg)
+	top center
+	no-repeat
+	fixed
+	gray;
+	font-family: "Comfortaa", cursive;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+h2 {
+	padding-top: 400px;
+	margin: 0;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: center;
+	font-size: 28pt;
+	font-weight: 600;
+	color: #fff700;
+	/*color: #fffcad;*/
+	text-transform: uppercase;
+}
+
+hr {
+	color: white;
+	background-color: white;
+	height: 3px;
+	border-width: 0;
+	width: 150px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.register-btn {
+	align-items: center;
+	justify-content: center;
+}
+
+.btn {
+	width: 250px;
+	height: 50px;
+	background-color: #ED8BB6;
+	border-color: #F7B5D1;
+	font-size: 1.4em;
+	border-radius: 40px;
+}
+
+.btn:hover {
+	background-color: #E95194;
+	border-color: #ED8BB6; 
+}
