@@ -1,0 +1,23 @@
+{
+  "name": "fence-2.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd \"Projects\\JS Shopping List\" && browserify script.js > bundle.js && cd .. && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fence-2/fence-2.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fence-2/fence-2.github.io/issues"
+  },
+  "homepage": "https://github.com/Fence-2/fence-2.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}
