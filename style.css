@@ -16,7 +16,7 @@ body {
 }
 
 h2 {
-	padding-top: 400px;
+	padding-top: 200px;
 	margin: 0;
 	align-items: flex-end;
 	justify-content: center;
@@ -55,4 +55,26 @@ hr {
 .btn:hover {
 	background-color: #E95194;
 	border-color: #ED8BB6; 
+}
+
+nav {
+	margin: 15px 0px 0px 15px;
+	width: 400px;
+}
+
+ul {
+	margin: 0;
+	padding: 5px;
+	border: 3px solid #280ECE;
+	border-radius: 25px;
+	background-color: rgba(50, 50, 50, 0.6);
+}
+li {
+	font-size: 20px;
+	list-style-type: none;
+	padding: 5px 0 5px 10px;
+}
+
+a:hover {
+color: rgb(200, 200, 230);
 }
