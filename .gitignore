@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/Projects/Gradient_Background_Generator/node_modules
 
 # testing
 /coverage
